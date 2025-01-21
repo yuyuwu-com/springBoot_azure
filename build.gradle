@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.4.1'
+    id 'io.spring.dependency-management' version '1.1.7'
+    id 'com.microsoft.azure.azurewebapp' version '1.2.0'  // Make sure to check the latest version
+}
+
+azurewebapp {
+    subscription = '10e5c8b3-dadd-4eb3-b3c8-0be535ae845b'
+    appName = 'webapp-0'
+   resourceGroup = 'rg-yuyuwu-1'
+    region = 'westus2'  // e.g. 'East US'
+    pricingTier = 'F1'  // Adjust as necessary
+
+    runtime {
+        os = 'Linux'
+        webContainer = 'Java SE'
+        javaVersion = 'Java 21'
+    }
+
+
+}
+
+group = 'com.yuyuwu'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+}
+
+
