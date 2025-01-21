@@ -6,11 +6,11 @@ plugins {
 }
 
 azurewebapp {
-    subscription = '10e5c8b3-dadd-4eb3-b3c8-0be535ae845b'
-    appName = 'webapp-0'
-   resourceGroup = 'rg-yuyuwu-1'
+    subscription = 'yourSubscriptionId'
+    appName = 'WebAppName'  //i dont know if you need to make the app beforehand
+   resourceGroup = 'resourceGroupName'
     region = 'westus2'  // e.g. 'East US'
-    pricingTier = 'F1'  // Adjust as necessary
+    pricingTier = 'F1'  // F1 for free
 
     runtime {
         os = 'Linux'
