@@ -1,16 +1,17 @@
 # springBoot_azure
 a basic spring boot java app using gradle
+
 change
 
-server.port = 8080
+    server.port = 8080
 
 to
 
-server.port = 80 
+    server.port = 80 
 
 before uploading
 
-Then update the  guild.gradle file to point to a webapp you have on the portal.
+Then update the  build.gradle file to point to a webapp you have on the portal.
 
     azurewebapp 
     {
