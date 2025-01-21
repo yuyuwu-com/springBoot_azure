@@ -1,7 +1,7 @@
 # springBoot_azure
 a basic spring boot java app using gradle
 
-change
+in application.properties file(src/main/resources), change
 
     server.port = 8080
 
