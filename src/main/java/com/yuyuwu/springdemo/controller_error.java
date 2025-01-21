@@ -1,4 +1,4 @@
-package com.yuyuwu.speingdemo;
+package com.yuyuwu.springdemo;
 
 import org.springframework.boot.web.servlet.error.ErrorAttributes;
 import org.springframework.boot.web.servlet.error.ErrorController;

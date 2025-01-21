@@ -7,7 +7,7 @@ plugins {
 
 azurewebapp {
     subscription = 'yourSubscriptionId'
-    appName = 'WebAppName'  //i dont know if you need to make the app beforehand
+    appName = 'WebAppName'  // works with already Existing app
    resourceGroup = 'resourceGroupName'
     region = 'westus2'  // e.g. 'East US'
     pricingTier = 'F1'  // F1 for free

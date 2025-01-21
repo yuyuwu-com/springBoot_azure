@@ -1,4 +1,4 @@
-package com.yuyuwu.speingdemo;
+package com.yuyuwu.springdemo;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
