@@ -24,6 +24,10 @@ if you dont have one.
 
     }
 
+then login through command line with 
+
+    az login
+    
 then use command
 
-gradle azureWebAppDeploy
+    gradle azureWebAppDeploy
